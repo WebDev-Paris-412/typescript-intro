@@ -1,15 +1,12 @@
 import "./App.css"
-
-function convertToCurrency(amount: number, currency: string): string {
-	// ...
-	return `${amount}${currency}`
-}
-
-convertToCurrency(5, "eur")
-convertToCurrency(5, "$")
+import Button from "./components/Button"
 
 function App() {
-	return <></>
+	return (
+		<>
+			<Button backgroundColor={"green"} textColor="blue" pillShape={true} />
+		</>
+	)
 }
 
 export default App
