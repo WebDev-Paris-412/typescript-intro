@@ -1,11 +1,12 @@
 import "./App.css"
 
-const url: string = "5"
-console.log(url)
-// Type is not needed but usually infered
-let otherUrl = "http://somewhere"
+function convertToCurrency(amount: number, currency: string): string {
+	// ...
+	return `${amount}${currency}`
+}
 
-otherUrl = 5
+convertToCurrency(5, "eur")
+convertToCurrency(5, "$")
 
 function App() {
 	return <></>
