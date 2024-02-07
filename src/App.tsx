@@ -8,6 +8,7 @@ function App() {
 				padding={{
 					paddingTop: 5,
 					paddingRight: 2,
+					paddingBottom: "5px",
 				}}
 			/>
 		</>
