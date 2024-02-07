@@ -11,8 +11,6 @@ type User = {
 function App() {
 	const [user, setUser] = useState<User | null>(null)
 
-	const names = ["Bob", "John", "Alice"] as const
-	names[0] = "bob"
 	return (
 		<>
 			<Button />
