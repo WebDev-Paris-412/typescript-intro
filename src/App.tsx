@@ -5,10 +5,10 @@ function App() {
 	return (
 		<>
 			<Button
-				backgroundColor={"green"}
-				textColor="blue"
-				pillShape={true}
-				padding={[15, 20, "px", 56]}
+				style={{
+					color: "red",
+					offset: "10rem",
+				}}
 			/>
 		</>
 	)
