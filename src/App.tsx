@@ -5,9 +5,9 @@ function App() {
 	return (
 		<>
 			<Button
-				style={{
-					color: "red",
-					offset: "10rem",
+				padding={{
+					paddingTop: 5,
+					paddingRight: 2,
 				}}
 			/>
 		</>
